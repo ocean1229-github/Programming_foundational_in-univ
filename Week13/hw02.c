@@ -5,8 +5,8 @@ int myatoi(char num[10]) {
 	int i = 0;
 
 	if (num[0] == '-') {
-		minus = -1;
-		i++;			
+		minus = -1;				
+		i++;					
 	}
 	for (; num[i] != '\0'; ++i) {   
 		if (num[i] >= '0' && num[i] <= '9') {
